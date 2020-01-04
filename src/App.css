@@ -1,24 +1,37 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
+ body {
+       
+  font-family: 'Open Sans', sans-serif;
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
+ }
 
-.App-intro {
-  font-size: large;
-}
+ .text-slanted {
+             
+  font-family: 'Courgette', cursive;
+ }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+ .letter-spacing {
+   letter-spacing: 0.5rem;
+ }
+
+ .text-orange{
+   color: #f15025;
+ }
+
+ .header-hero{
+   min-height: calc(100vh - 56px);
+   background: url('./images/homeBcg.jpeg') center/cover no-repeat,linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.3))  ;
+
+ }
+
+ .default-hero{
+
+  min-height: calc(100vh - 56px);
+  background: url('./images/defaultBcg.jpeg') center/cover no-repeat,linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.3))  ;
+
+ }
+
+ .italic {
+   font-style: italic;
+ }
+
